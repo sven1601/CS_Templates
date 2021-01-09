@@ -47,7 +47,7 @@ namespace DataGrid_IterateAndCompareCells
             List<ExampleObjectLeft> left = new List<ExampleObjectLeft>();
             List<ExampleObjectRight> right = new List<ExampleObjectRight>();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 30; i++)
             {
                 left.Add(new ExampleObjectLeft());
                 right.Add(new ExampleObjectRight());

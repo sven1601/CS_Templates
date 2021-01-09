@@ -15,8 +15,8 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="gridLeft" Grid.Column="0" Grid.Row="1" Margin="5,5,5,5" IsReadOnly="True" CanUserAddRows="False"/>
-        <DataGrid x:Name="gridRight" Grid.Column="1" Grid.Row="1" Margin="5,5,5,5" IsReadOnly="True" CanUserAddRows="False"/>
+        <DataGrid x:Name="gridLeft" Grid.Column="0" Grid.Row="1" Margin="5,5,5,5" IsReadOnly="True" CanUserAddRows="False" VirtualizingPanel.IsVirtualizing="False"/>
+        <DataGrid x:Name="gridRight" Grid.Column="1" Grid.Row="1" Margin="5,5,5,5" IsReadOnly="True" CanUserAddRows="False" VirtualizingPanel.IsVirtualizing="False"/>
         <Button x:Name="btnCompareAll" Content="Compare Color All" HorizontalAlignment="Left" Margin="5,5,5,5" Click="btnCompareColorAll_Click"/>
     </Grid>
 </Window>
