@@ -9,6 +9,7 @@ Several templates for C#
   For cell colorizing the DataGrid virtualization has to be disabled, which results in highter memory consumption, because while rows won't be recylcled during scrolling.</br>
   With enabled virtualiztion (which is default), this is not possible.</br>
   For huge DataGrid contents, this should be avoided.</br>
+  <mark>This is a non MVVM approach!</mark></br>
   
 ## **DataGrid_IterateAndCompareCells**</br>
   This example shows, how to iterate over the contents of two DataGrids and comare each cell content from one DataGridCell to the other DataGridCell of the other grid.</br>
@@ -17,4 +18,5 @@ Several templates for C#
   For cell colorizing **AND** iteration, the DataGrid virtualization has to be disabled which results in highter memory consumption because rows won't be recylcled during scrolling.</br>
   With enabled virtualiztion (which is default), this is not possible.</br>
   For huge DataGrid contents, this should be avoided.</br>
+  <mark>This is a non MVVM approach!</mark></br>
   
